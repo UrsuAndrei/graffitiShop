@@ -1,0 +1,52 @@
+*:focus {
+    outline: none;
+}
+body{
+    background-color: steelblue;
+}
+.content{
+    width: 400px;
+    background-color: aquamarine;
+    display: table;
+    margin: 200px auto;
+    border-radius: 20px;
+}
+.container{
+    width: 200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+input {
+    display: block;
+    border: none;
+    border-radius: 10px;
+    margin: 5px 0 30px 0;
+}
+input[type='text'],input[type='password']{
+    background-color: white;
+    height: 25px;
+    width: 180px;
+    padding-left: 20px;
+}
+#login{
+    background-color: steelblue;
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+    height: 30px;
+    color: white;
+}
+#login:hover{
+    opacity: 0.8;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+.wrong {
+    font-weight: 800;
+    font-size: 17px;
+    color: red;
+    display: table;
+    margin:15px auto -40px auto;
+    position: relative;
+}
